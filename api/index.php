@@ -20,8 +20,8 @@ if (!isset($_ENV["TOKEN"])) {
 }
 
 // set cache to refresh once per hour
-header("Expires: " . gmdate("D, d M Y H:i:s", time() + 3600) . " GMT");
-header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Expires: " . gmdate("D, d M Y H:i:s", time() + 3600) . " GMT-3");
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT-3");
 header("Cache-Control: public, max-age=3600");
 
 // redirect to demo site if user is not given
