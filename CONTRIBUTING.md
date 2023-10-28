@@ -74,7 +74,7 @@ composer install
 composer start
 ```
 
-Open http://localhost:8000/?user=DenverCoder1 to run the project locally
+Open http://localhost:8000/?user=freitasanderson to run the project locally
 
 Open http://localhost:8000/demo/ to run the demo site
 
